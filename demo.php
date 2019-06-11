@@ -8,4 +8,7 @@
 
 include "./vendor/autoload.php";
 use Tool\Encrypt\RsaEncrypt;
+use Tool\RequsetHttp\FactionHttp;
+FactionHttp::func();
+echo "\n";
 RsaEncrypt::Hello();
