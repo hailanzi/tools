@@ -1,0 +1,18 @@
+{
+    "name": "hailanzi/tools",
+    "description": "这是我的描述",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangch",
+            "email": "wangchunhui@51-dg.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Tool\\": "src/Library"
+        }
+    }
+}
