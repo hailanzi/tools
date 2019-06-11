@@ -17,4 +17,8 @@ class RsaEncrypt
         echo "hello";
     }
 
+    public static function sayHello(){
+        echo "sayHello";
+    }
+
 }
